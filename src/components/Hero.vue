@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 pl-3">
+    <div class="col">
+        <div class="row-8 row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 pl-3">
             <img src="https://images.squarespace-cdn.com/content/v1/618554f06b8283365679ba7a/1636127985112-PFMB5YC7KTBTMJM67FM3/image-asset.jpeg?format=1000w"
                 alt="" class="item">
             <div class="d-flex flex-column item align-items-center text-center">
@@ -20,10 +20,11 @@
                     value="gemeinsame arbeit">
             </div>
         </div>
-        <div class="info bg-light d-flex flex-column align-items-center text-center mt-5">
+        <div class="row-4 info bg-light d-flex flex-column align-items-center text-center mt-5 p-5">
             <img src="https://images.squarespace-cdn.com/content/v1/618554f06b8283365679ba7a/1636127985135-WSJLOEP8G5HU93BZWJPC/Star%402x.png?format=300w"
-                alt="" height="90px">
-            <h2 class="w-75">Zuhören ist die Grundlage meines Coaching-Ansatzes. Ich unterstütze dich dabei, wie du
+                alt="" width="10%" height="auto">
+            <h2 class="pe-5 ps-5">Zuhören ist die Grundlage meines Coaching-Ansatzes. Ich unterstütze dich dabei,
+                wie du
                 deine Ängste
                 überwinden und genau
                 das Leben leben kannst, das du dir wünschst.</h2>
@@ -36,12 +37,12 @@ p {
     font-size: 2vw;
 }
 
-.header-2 {
+h1 {
     font-size: 7vw;
 }
 
-.info {
-    padding: 10%;
+h2 {
+    font-size: 2.5vw;
 }
 
 .btn {
