@@ -65,11 +65,4 @@ h2 {
     color: #e3d7ca;
     transition: 0.2s;
 }
-
-.btn:hover {
-    background-position: 100% 100%;
-    background-color: var(--fc);
-    color: #e3d7ca;
-    transition: 0.2s;
-}
 </style>

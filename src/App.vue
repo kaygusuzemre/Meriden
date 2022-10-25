@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import Banner from './components/Banner.vue'
+import Newsletter from './components/Newsletter.vue'
 import "bootstrap/dist/css/bootstrap.min.css"
 </script>
 
@@ -11,6 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
     <Header />
     <Hero />
     <Banner />
+    <Newsletter />
   </div>
 </template>
 
