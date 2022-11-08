@@ -6,20 +6,26 @@
             </h4>
             <div class="d-flex align-items-center">
                 <div class="item">
-                    <a class="menu">
+                    <a href="#" class="menu">
                         Menü
                     </a>
-                    <ul class="dd-menu">
-                        <li>
+                    <ul class="dd-menu text-end">
+                        <li class="pt-2">
                             <a href="#" class="">Kurse</a>
                         </li>
                         <li>
                             <a href="#" class="">Gemeinsam arbeiten</a>
                         </li>
+                        <li>
+                            <a href="#" class="">Podcast</a>
+                        </li>
+                        <li>
+                            <a href="#" class="">Über uns</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="item">
-                    <a href="">Einloggen</a>
+                    <a href="" class="login">Einloggen</a>
                 </div>
                 <input type="button" class="btn btn-outline-danger text-uppercase p-3 item" value="kostenlose beratung">
             </div>
@@ -27,15 +33,38 @@
     </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
 <style scoped lang="scss">
 ul {
     list-style-type: none;
+}
+
+li:hover a {
+    color: var(--fc);
+    border-bottom: 1px solid var(--fc);
+}
+
+.login:hover {
+    color: var(--fc);
+    border-bottom: 1px solid var(--fc);
+}
+
+.menu:hover {
+    color: var(--fc);
+}
+
+.item:hover {
+    .dd-menu {
+        display: block;
+    }
+}
+
+.dd-menu {
+    // display: none;
+    position: absolute;
+    background-color: hsl(30.967741935483897,
+            79.48717948717947%,
+            92.3529411764706%);
+    display: none;
 }
 
 .item {
@@ -62,13 +91,5 @@ ul {
     background-color: var(--fc);
     color: #e3d7ca;
     transition: 0.2s;
-}
-
-.dd-menu {
-    display: none;
-}
-
-.menu:hover {
-    .dd-menu {}
 }
 </style>

@@ -1,27 +1,26 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
-import Banner from './components/Banner.vue'
-import Newsletter from './components/Newsletter.vue'
 import "bootstrap/dist/css/bootstrap.min.css"
 </script>
 
 <template>
-  <div class="app d-flex flex-column">
-    <Header />
-    <Hero />
-    <Banner />
-    <Newsletter />
+  <div class="">
+    <h1>Emre</h1>
+    <!-- <Hero /> -->
+    <!-- <router-view></router-view> -->
   </div>
 </template>
 
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-  --ff: 'Lora', serif;
+  --ff: 'Bebas Neue',
+    cursive;
   --fc: #f2460d
 }
 

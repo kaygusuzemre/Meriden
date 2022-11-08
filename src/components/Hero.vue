@@ -16,9 +16,20 @@
                         LEBEN
                     </p>
                 </div>
-                <div></div>
-                <input type="button" class="btn btn-outline-danger text-uppercase ps-4 pe-4 p-3"
-                    value="gemeinsame arbeit">
+                <div>
+                    <router-link to="/arbeit" class="button btn btn-outline-danger text-uppercase ps-4 pe-4 p-3">
+                        <span class="text">Arbeit</span>
+                    </router-link>
+                    <router-link to="/" class="button btn btn-outline-danger text-uppercase ps-4 pe-4 p-3">
+                        <span class="text">Banner</span>
+                    </router-link>
+                    <router-link to="/" class="button btn btn-outline-danger text-uppercase ps-4 pe-4 p-3">
+                        <span class="text">Header</span>
+                    </router-link>
+                    <router-link to="/" class="button btn btn-outline-danger text-uppercase ps-4 pe-4 p-3">
+                        <span class="text">Newsletter</span>
+                    </router-link>
+                </div>
             </div>
         </div>
         <div class="row-4 bg-light d-flex flex-column align-items-center text-center mt-5">
@@ -36,10 +47,6 @@
 </template>
 
 <style scoped lang="scss">
-.cardInfo {
-    max-width: 75%
-}
-
 p {
     font-size: 2vw;
 }
