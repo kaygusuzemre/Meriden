@@ -2,28 +2,11 @@
     <div class="d-flex flex-column">
         <!-- eslint-disable-next-line vue/max-attributes-per-line -->
         <div class="header d-flex justify-content-between align-items-center pt-5 pb-4">
-            <h4 class="">MERIDEN LIFE COACHING
-            </h4>
+            <router-link to="/">
+                <h4 class="">MERIDEN LIFE COACHING
+                </h4>
+            </router-link>
             <div class="d-flex align-items-center">
-                <div class="item">
-                    <a href="#" class="menu">
-                        Menü
-                    </a>
-                    <ul class="dd-menu text-end">
-                        <li class="pt-2">
-                            <a href="#" class="">Kurse</a>
-                        </li>
-                        <li>
-                            <a href="#" class="">Gemeinsam arbeiten</a>
-                        </li>
-                        <li>
-                            <a href="#" class="">Podcast</a>
-                        </li>
-                        <li>
-                            <a href="#" class="">Über uns</a>
-                        </li>
-                    </ul>
-                </div>
                 <div class="item">
                     <a href="" class="login">Einloggen</a>
                 </div>
@@ -34,6 +17,10 @@
 </template>
 
 <style scoped lang="scss">
+h4 {
+    cursor: pointer;
+}
+
 ul {
     list-style-type: none;
 }

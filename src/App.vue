@@ -1,14 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import Hero from './components/Hero.vue'
+import Home from './components/Home.vue'
 import "bootstrap/dist/css/bootstrap.min.css"
 </script>
 
 <template>
   <div class="">
-    <h1>Emre</h1>
-    <!-- <Hero /> -->
-    <!-- <router-view></router-view> -->
+    <Home />
+    <router-view></router-view>
   </div>
 </template>
 
@@ -17,6 +16,12 @@ import "bootstrap/dist/css/bootstrap.min.css"
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+router-view {
+  Header {
+    display: none;
+  }
+}
 
 :root {
   --ff: 'Bebas Neue',
